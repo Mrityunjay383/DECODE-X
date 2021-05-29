@@ -6,9 +6,6 @@ from nltk.cluster.util import cosine_distance
 import numpy as np
 import networkx as nx
 import math
-import joblib
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
 
 def read_article(a):
     if a[-1]!='.':
